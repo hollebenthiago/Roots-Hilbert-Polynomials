@@ -2,11 +2,11 @@ restart
 loadPackage "RandomIdeals" 
 R = QQ; 
 rR = "QQ"; 
-var = 8; 
-d = 2; 
-g = 27; 
-rep = 50000; 
-S = R[x_1..x_8]; 
+var = 9; 
+d = 4; 
+g = 125; 
+rep = 70000; 
+S = R[x_1..x_9]; 
  f = randomSquareFreeMonomialIdeal; 
 everyRoot = [] 
 for i to rep do { 
