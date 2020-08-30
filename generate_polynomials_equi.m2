@@ -3,7 +3,7 @@ loadPackage "RandomIdeals"
 R = QQ; 
 rR = "QQ"; 
 var = 9; 
-d = 4; 
+d = 5; 
 g = 125; 
 rep = 70000; 
 S = R[x_1..x_9]; 
